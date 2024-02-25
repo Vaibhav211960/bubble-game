@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #05161a;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #072e33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pannel{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: #294d61;
+    border-radius: 8px;
+}
+.ptop{
+    width: 100%;
+    height: 100px;
+    background-color: #6da5c0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 20%;
+    border-bottom: 2px solid black;
+}
+#element{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#element h3{
+    font-weight: 650;
+}
+.box{
+    border-radius: 5px;
+    background-color: rgb(249, 249, 250);
+    padding: 7px 14px;
+    font-size: 17px;
+    font-weight: 750;
+}
+.pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 10px;
+}
+.bubble{
+    height: 32px;
+    width:32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:  #6da5c0;
+    cursor: grab;
+    font-size: 1.5vw;
+}
+#hitval{
+    background-color: #294d61;
+}
+#timerval{
+    background-color: #294d61;
+}
+#scoreval{
+    background-color: #294d61;
+}
+.pbtm h1{   
+    /* font-size: ; */
+}
